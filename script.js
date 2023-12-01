@@ -30,15 +30,37 @@ console.log(array1);
 console.log("///4///");
 let arr = [1, 2, 3, 4, 5];
 let sum = 0;
-arr.forEach( numbers =>{
+arr.forEach(numbers => {
     sum += numbers;
 })
 console.log(sum);
 
 //5
 console.log("///5///");
-for(let i = 1; i < 101; i++){
+for (let i = 1; i < 101; i++) {
     console.log(i);
 }
- //6
- console.log("///6///");
+//6
+console.log("///6///");
+let array2 = [12, 25, 3, 6, 8, 14, 7, 23];
+let divide = array2.map(number => number / 3);
+console.log(divide);
+
+//7
+console.log("///7///");
+let languages = ['html', 'css', 'javascript', 'python', 'php'];
+languages.filter(programing => {
+    if (programing.length > 3) {
+        console.log(programing);
+    }
+})
+
+//8
+console.log("///8///");
+let words = ['madrid', 'rome', 'milan', 'berlin'];
+let wordFilter = words.filter(word => word.includes('n') || word.includes('m'))
+console.log(wordFilter);
+
+ //9
+ console.log("///9///");
+
