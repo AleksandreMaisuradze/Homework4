@@ -37,7 +37,7 @@ console.log(sum);
 
 //5
 console.log("///5///");
-for (let i = 1; i < 101; i++) {
+for (let i = 100; i > 0; i--) {
     console.log(i);
 }
 
